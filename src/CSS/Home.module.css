@@ -1,0 +1,60 @@
+.Home {
+  background-image: url("../Images/img-home.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+  color: white;
+}
+
+.p1 {
+  font-size: 50px;
+  margin: 0;
+}
+.p2 {
+  font-size: 40px;
+}
+.btn1,
+.btn2 {
+  font-size: 25px;
+  padding: 10px;
+  width: 300px;
+  border-radius: 5px;
+  margin: 10px;
+  font-weight: bold;
+}
+
+.btn1:hover,
+.btn2:hover {
+  cursor: pointer;
+}
+
+.btn1:hover{
+  background-color: white;
+  color: black;
+}
+
+.btn2:hover{
+  background-color: black;
+  color: white;
+}
+
+
+.btns {
+  text-align: center;
+}
+
+.btn1 {
+  color: white;
+  background: none;
+  border: 2px solid white;
+}
+.btn2 {
+  background: white;
+  border: none;
+}
